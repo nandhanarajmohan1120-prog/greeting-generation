@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KSK Greeting</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- download library -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+
+<body class="center">
+
+  <div id="greetingCard" class="greeting-card">
+    <h1>We Warmly Welcome You All</h1>
+
+    <h2>K.S.K College of Engineering & Technology</h2>
+    <p class="dept">Department of CSE, AI&DS, AI&ML</p>
+
+    <h3 id="eventText"></h3>
+    <p id="dateText"></p>
+    <p id="venueText"></p>
+
+    <p class="footer">
+      Along with Chairman, Secretary, Principal, Staffs and Students,
+      we cordially invite you to be part of this wonderful event.
+    </p>
+  </div>
+
+  <div class="actions">
+    <button onclick="downloadCard()">⬇ Download</button>
+    <button onclick="send()">📤 Send</button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
